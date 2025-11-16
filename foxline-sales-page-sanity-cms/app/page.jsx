@@ -253,7 +253,179 @@ export default function FoxlineClientWrapper() {
       </section>
 
       {/* <BlogPreviewWrapper /> */}
+{/* FAQ Section */}
+<section className="max-w-4xl mx-auto px-4 py-16">
+  <div
+    className="rounded-2xl p-8 md:p-12"
+    style={{ backgroundColor: "#f5e6d3" }}
+  >
+    <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">
+      Common Questions
+    </h2>
 
+    <div className="space-y-6">
+      {/* FAQ 1 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>How does Foxline help me save money on my car deal?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          Upload any paperwork or contract related to buying or leasing a car, and Foxline's AI analyzes it using insider knowledge of dealer tactics. We spot inaccuracies, hidden fees, inflated interest rates, and overcharges that dealers hope you won't notice - then show you exactly where to negotiate.
+        </p>
+      </details>
+
+      {/* FAQ 2 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>Is my information private and secure?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          Absolutely. Foxline does not collect, store, or share any of your personal information. We analyze your deal anonymously and never ask for sensitive data like your SSN, driver's license, or financial account information. Your privacy is protected.
+        </p>
+      </details>
+
+      {/* FAQ 3 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>Is Foxline really free?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          Yes, completely free. No credit card, no hidden fees, no data selling. We believe everyone deserves access to insider knowledge when buying a car.
+        </p>
+      </details>
+
+      {/* FAQ 4 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>What kind of 'inaccuracies' does Foxline find?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          Common issues we catch: dealer markup on interest rates, unnecessary dealer fees, inflated add-ons like extended warranties, incorrect tax calculations, and finance charges that don't match the advertised rate. These 'mistakes' can cost you thousands.
+        </p>
+      </details>
+
+      {/* FAQ 5 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>What paperwork can I upload to Foxline?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          Any and all paperwork related to car buying or leasing! This includes purchase agreements, lease contracts, buyer's orders, finance applications, trade-in valuations, and dealer quotes. The more details you provide, the better we can analyze your deal.
+        </p>
+      </details>
+
+      {/* FAQ 6 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>Does Foxline work for used cars, new cars, and leases?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          Yes! Whether you're buying new, used, or leasing, dealers use similar tactics to inflate prices. Foxline analyzes all types of deals and shows you where they're padding the numbers.
+        </p>
+      </details>
+
+      {/* FAQ 7 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>Can I use Foxline while I'm at the dealership?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          Absolutely! That's when it's most powerful. When the dealer comes back with 'the numbers,' snap a photo of the paperwork or enter the details into Foxline. Within seconds, you'll know if the deal is fair or where they're trying to overcharge you.
+        </p>
+      </details>
+
+      {/* FAQ 8 */}
+      <details className="group">
+        <summary className="flex justify-between items-center font-semibold text-lg cursor-pointer list-none">
+          <span>Is Foxline giving me legal advice?</span>
+          <span className="transition group-open:rotate-180">
+            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p className="text-slate-700 mt-3 group-open:animate-fadeIn">
+          No. Foxline provides educational information and analysis based on market data and common dealer practices. This is not legal, financial, or professional advice. Always consult with qualified professionals for specific guidance on your situation.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+    {/* Privacy & Disclaimer Section */}
+<section className="max-w-4xl mx-auto px-4 py-16">
+  <div className="rounded-2xl p-8 md:p-12" style={{ backgroundColor: "#f5e6d3" }}>
+    <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">
+      Privacy & Legal Disclaimer
+    </h2>
+    
+    <div className="space-y-6">
+      <div className="bg-white/50 rounded-lg p-6">
+        <h3 className="text-xl font-semibold text-slate-900 mb-3">
+          Your Privacy is Protected
+        </h3>
+        <p className="text-slate-700">
+          Foxline does not collect, store, or share your personal information. We do not accept Social Security numbers, driver's license numbers, credit card information, or any other sensitive personal data. All deal analysis is performed anonymously.
+        </p>
+      </div>
+      
+      <div className="bg-white/50 rounded-lg p-6">
+        <h3 className="text-xl font-semibold text-slate-900 mb-3">
+          Not Legal or Financial Advice
+        </h3>
+        <p className="text-slate-700">
+          Foxline provides educational information and analysis tools only. The information provided is not legal, financial, tax, or professional advice and should not be relied upon as such. Always consult with qualified professionals (attorneys, CPAs, financial advisors) before making any financial or legal decisions.
+        </p>
+      </div>
+      
+      <div className="bg-white/50 rounded-lg p-6">
+        <h3 className="text-xl font-semibold text-slate-900 mb-3">
+          No Guarantees
+        </h3>
+        <p className="text-slate-700">
+          While Foxline uses industry data and insider knowledge to analyze car deals, we make no guarantees about specific outcomes, savings, or results. Every deal is unique, and final terms depend on negotiations between you and the dealer.
+        </p>
+      </div>
+      
+      <div className="bg-white/50 rounded-lg p-6">
+        <h3 className="text-xl font-semibold text-slate-900 mb-3">
+          Educational Use Only
+        </h3>
+        <p className="text-sl
       {/* Final CTA */}
 
       <section
@@ -315,43 +487,4 @@ export default function FoxlineClientWrapper() {
           >
             <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">
               Common Questions
-            </h2>
-
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                  Why free?
-                </h3>
-                <p className="text-slate-600">
-                  We believe you deserve transparency before you commit. This is
-                  how we earn your trust—no gimmicks, no bait-and-switch.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                  Is my information secure?
-                </h3>
-                <p className="text-slate-600">
-                  Your documents are encrypted and never shared. We analyze,
-                  send results, and delete within 30 days.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                  What's the catch?
-                </h3>
-                <p className="text-slate-600">
-                  No catch. If you love the analysis and want ongoing support,
-                  we offer premium services. But the first one's on us, no
-                  strings attached.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-    </div>
-  );
-}
-
+            
